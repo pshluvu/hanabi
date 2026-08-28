@@ -5,11 +5,8 @@ import numpy as np
 
 
 def get_default_device():
-    """Pick GPU if available, else CPU"""
-    if torch.cuda.is_available():
-        return torch.device('cuda')
-    else:
-        return torch.device('cpu')
+    """Force CPU - torch.cuda.is_available() crashes on this WSL2 setup"""
+    return torch.device('cpu')
 
 
 def neural_network(obs_dim: int, hidden_layers: list, act_dim: int, activation=nn.Tanh):

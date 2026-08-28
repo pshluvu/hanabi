@@ -1,7 +1,14 @@
 """Functions that provide different options of action representation.
 For the DECentralized version of the agents."""
 import torch
+import random
 from torch.distributions.categorical import Categorical
+
+
+def get_random_hint(legals_HLE):
+    """Pick a random hint action from the legal moves (works for any player count)."""
+    hint_actions = [a for a in legals_HLE if a['action_type'] in ('REVEAL_COLOR', 'REVEAL_RANK')]
+    return random.choice(hint_actions)
 
 
 def choose_action_11position(self, obs, explore=True):
@@ -35,7 +42,7 @@ def choose_action_11position(self, obs, explore=True):
 
     if act_int == 10:  # hint action chosen
         if hint_possible:
-            return legals_HLE[-1], act_int, True
+            return get_random_hint(legals_HLE), act_int, True
             # last legal HLE action is a hint, when hinting is possible
         else:
             return {}, act_int, False
@@ -78,7 +85,7 @@ def choose_action_51unique(self, obs, explore=True, max_hint=8):
         if hint_possible:
             legals_HLE = obs['legal_moves']
             # last legal HLE action is a hint, when hinting is possible
-            return legals_HLE[-1], act_int, True
+            return get_random_hint(legals_HLE), act_int, True
         else:
             return {}, act_int, False
 

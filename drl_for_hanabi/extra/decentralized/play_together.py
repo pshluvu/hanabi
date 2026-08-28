@@ -1,5 +1,4 @@
-"""
-Play any combination of existing agents together in one game.
+""" Play any combination of existing agents together in one game.
 
 This does not merge, rewrite, or duplicate any agent's code. It only:
   1. builds each requested agent via agent_registry.build_agent(name)
@@ -55,6 +54,8 @@ class Runner(object):
         "max_information_tokens": 8,
         "max_life_tokens": 3,
     }
+
+    self.game_config = game_config
     self.environment = rl_env_adjusted.make(obs_type="CHEAT", config=game_config)
     self.agents = agents
     print()
@@ -65,10 +66,7 @@ class Runner(object):
     rewards = []
     for episode in range(nr_episodes):
       observations = self.environment.reset()
-      agents = self.agents
-      for agent in agents:
-        if hasattr(agent, "reset"):
-          agent.reset()
+      agents = self.agents    
 
       for idx, agent in enumerate(agents):
         if isinstance(agent, HumanPlayer):
