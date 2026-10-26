@@ -178,6 +178,12 @@ bool GetPlayMove(int card_index, pyhanabi_move_t* move) {
       hanabi_learning_env::HanabiMove::kPlay, card_index, -1, -1, -1);
   return move->move != nullptr;
 }
+bool GetDealMove(int color, int rank, pyhanabi_move_t* move) {
+  REQUIRE(move != nullptr);
+  move->move = new hanabi_learning_env::HanabiMove(
+      hanabi_learning_env::HanabiMove::kDeal, -1, -1, color, rank);
+  return move->move != nullptr;
+}
 
 bool GetRevealColorMove(int target_offset, int color, pyhanabi_move_t* move) {
   REQUIRE(move != nullptr);

@@ -337,6 +337,11 @@ class HanabiMove(object):
     c_move = ffi.new("pyhanabi_move_t*")
     assert lib.GetPlayMove(card_index, c_move)
     return HanabiMove(c_move)
+  @staticmethod
+  def get_deal_move(color, rank):
+    c_move = ffi.new("pyhanabi_move_t*")
+    assert lib.GetDealMove(color, rank, c_move)
+    return HanabiMove(c_move)
 
   @staticmethod
   def get_reveal_color_move(target_offset, color):

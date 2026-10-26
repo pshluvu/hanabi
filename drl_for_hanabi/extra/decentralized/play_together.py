@@ -18,6 +18,17 @@ Run `python play_together.py --list-agents` to see every registered name.
 import argparse
 
 from hanabi_learning_environment import rl_env_adjusted
+try:
+    from agents.obl.obl_agent_proxy import OBLAgentProxy as OBLAgent
+    from deck_sync_utils import reset_with_deck_order, step_with_deck_order
+except ImportError:
+    OBLAgent = None
+    reset_with_deck_order = None
+    step_with_deck_order = None
+try:
+    from sad_agent_proxy import SADAgentProxy as SADAgent
+except ImportError:
+    SADAgent = None
 from agents.human_player.human_player import HumanPlayer
 from agent_registry import build_agent, list_agents, AGENT_REGISTRY
 
@@ -56,7 +67,7 @@ class Runner(object):
     }
 
     self.game_config = game_config
-    self.environment = rl_env_adjusted.make(obs_type="CHEAT", config=game_config)
+    self.environment = rl_env_adjusted.make(obs_type="CARD_KNOWLEDGE", config=game_config)
     self.agents = agents
     print()
     for idx, agent in enumerate(self.agents):
@@ -66,7 +77,18 @@ class Runner(object):
     rewards = []
     for episode in range(nr_episodes):
       observations = self.environment.reset()
-      agents = self.agents    
+      agents = self.agents
+      for agent in agents:
+        if OBLAgent is not None and isinstance(agent, OBLAgent):
+          agent.reset()
+          deck = agent.deck_history()
+          observations = reset_with_deck_order(self.environment, deck)
+          break
+      for agent in agents:
+        if SADAgent is not None and isinstance(agent, SADAgent):
+          deck = agent.reset()
+          observations = reset_with_deck_order(self.environment, deck)
+          break    
 
       for idx, agent in enumerate(agents):
         if isinstance(agent, HumanPlayer):
@@ -92,8 +114,21 @@ class Runner(object):
             assert action is None
 
         print(f"Turn {turn}, agent {current_player}, action: {current_player_action}")
-        observations, reward, done, unused_info = self.environment.step(
-            current_player_action)
+        obl_present = any(
+            OBLAgent is not None and isinstance(agent, OBLAgent) for agent in agents)
+        sad_present = any(
+            SADAgent is not None and isinstance(agent, SADAgent) for agent in agents)
+        for agent in agents:
+          if OBLAgent is not None and isinstance(agent, OBLAgent):
+            agent.apply_external_move(current_player_action)
+          if SADAgent is not None and isinstance(agent, SADAgent):
+            agent.apply_external_move(self.environment, current_player_action)
+        if obl_present or sad_present:
+          observations, reward, done, unused_info = step_with_deck_order(
+              self.environment, current_player_action)
+        else:
+          observations, reward, done, unused_info = self.environment.step(
+              current_player_action)
         episode_reward += reward
 
       for idx, agent in enumerate(agents):
@@ -149,7 +184,7 @@ def main():
         "colors": 5, "ranks": 5, "players": len(args.agents),
         "max_information_tokens": 8, "max_life_tokens": 3,
     }
-    probe_env = rl_env_adjusted.make(obs_type="CHEAT", config=probe_config)
+    probe_env = rl_env_adjusted.make(obs_type="CARD_KNOWLEDGE", config=probe_config)
     rainbow_config = dict(AGENT_REGISTRY["rainbow"][1])
     rainbow_config.update({
         "checkpoint_dir": args.rainbow_checkpoint,

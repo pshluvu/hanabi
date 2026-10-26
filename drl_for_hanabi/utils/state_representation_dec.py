@@ -90,11 +90,12 @@ def obs_to_vec37_owncards(obs, hand_size=5, max_life=3, max_hint=8, num_ranks=5,
     for card in own_cards:
         # color
         color_vec = [0] * num_colors
-        color_idx = color_dict[card['color']]
-        color_vec[color_idx] = 1
+        if card['color'] is not None:
+            color_idx = color_dict[card['color']]
+            color_vec[color_idx] = 1
         obs_vec += color_vec
         # rank
-        obs_vec.append( card['rank'] / num_ranks )
+        obs_vec.append( card['rank'] / num_ranks if card['rank'] is not None else 0 )
     if len(own_cards) < hand_size:
         # when hand is not full, add 1 missing card without color to keep obs_vec same size
         obs_vec += [0] * num_colors
@@ -154,11 +155,12 @@ def obs_to_vec62_discards(obs, hand_size=5, max_life=3, max_hint=8, num_ranks=5,
     for card in own_cards:
         # color
         color_vec = [0] * num_colors
-        color_idx = color_dict[card['color']]
-        color_vec[color_idx] = 1
+        if card['color'] is not None:
+            color_idx = color_dict[card['color']]
+            color_vec[color_idx] = 1
         obs_vec += color_vec
         # rank
-        obs_vec.append( card['rank'] / num_ranks )
+        obs_vec.append( card['rank'] / num_ranks if card['rank'] is not None else 0 )
     if len(own_cards) < hand_size:
         # when hand is not full, add 1 missing card without color to keep obs_vec same size
         obs_vec += [0] * num_colors
@@ -233,11 +235,13 @@ def obs_to_vec136_binary(obs, hand_size=5, max_life=3, max_hint=8, num_ranks=5, 
     own_cards = obs['card_knowledge'][0]
     for card in own_cards:
         color_vec = [0] * num_colors
-        color_vec[color_dict[card['color']]] = 1
+        if card['color'] is not None:
+            color_vec[color_dict[card['color']]] = 1
         obs_vec += color_vec
 
         rank_vec = [0] * num_ranks
-        rank_vec[card['rank']] = 1
+        if card['rank'] is not None:
+            rank_vec[card['rank']] = 1
         obs_vec += rank_vec
 
     if len(own_cards) < hand_size:
@@ -336,11 +340,13 @@ def obs_to_vec186_others_cards(obs, hand_size=5, max_life=3, max_hint=8, num_ran
     own_cards = obs['card_knowledge'][0]
     for card in own_cards:
         color_vec = [0] * num_colors
-        color_vec[color_dict[card['color']]] = 1
+        if card['color'] is not None:
+            color_vec[color_dict[card['color']]] = 1
         obs_vec += color_vec
 
         rank_vec = [0] * num_ranks
-        rank_vec[card['rank']] = 1
+        if card['rank'] is not None:
+            rank_vec[card['rank']] = 1
         obs_vec += rank_vec
 
     if len(own_cards) < hand_size:
@@ -352,11 +358,13 @@ def obs_to_vec186_others_cards(obs, hand_size=5, max_life=3, max_hint=8, num_ran
     other_cards = obs['card_knowledge'][1]
     for card in other_cards:
         color_vec = [0] * num_colors
-        color_vec[color_dict[card['color']]] = 1
+        if card['color'] is not None:
+            color_vec[color_dict[card['color']]] = 1
         obs_vec += color_vec
 
         rank_vec = [0] * num_ranks
-        rank_vec[card['rank']] = 1
+        if card['rank'] is not None:
+            rank_vec[card['rank']] = 1
         obs_vec += rank_vec
 
     if len(other_cards) < hand_size:

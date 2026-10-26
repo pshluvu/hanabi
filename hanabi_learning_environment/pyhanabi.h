@@ -91,6 +91,7 @@ int MoveColor(pyhanabi_move_t* move);
 int MoveRank(pyhanabi_move_t* move);
 bool GetDiscardMove(int card_index, pyhanabi_move_t* move);
 bool GetPlayMove(int card_index, pyhanabi_move_t* move);
+bool GetDealMove(int color, int rank, pyhanabi_move_t* move);
 bool GetRevealColorMove(int target_offset, int color, pyhanabi_move_t* move);
 bool GetRevealRankMove(int target_offset, int rank, pyhanabi_move_t* move);
 

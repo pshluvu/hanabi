@@ -6,14 +6,20 @@ existing agent classes -- exactly as they already live in the repo -- and
 gives each one a short name plus a default config, so that any combination
 of agents can be seated in a single game by `play_together.py`.
 
-Agents come from two places in the repo (both already present):
+Agents come from three places in the repo (all already present):
   1. hanabi_learning_environment/agents/            (Random, Simple)
   2. drl_for_hanabi/extra/decentralized/agents/      (Human, rule-based, SPG/VPG/PPO)
+  3. drl_for_hanabi/extra/decentralized/agents/population_dec/ (population-trained agent)
 
-Nothing in either folder is changed. This file just points at them.
+Nothing in the first two folders is changed. This file just points at them.
 """
 
 # --- Agents from hanabi_learning_environment/agents/ ------------------------
+from agents.hoad_piers.hoad_piers_agent import HOADImitatorAgent
+try:
+    from agents.obl.obl_agent_proxy import OBLAgentProxy as OBLAgent
+except ImportError:
+    OBLAgent = None
 from hanabi_learning_environment.agents.random_agent import RandomAgent
 from hanabi_learning_environment.agents.simple_agent import SimpleAgent
 
@@ -25,6 +31,7 @@ from agents.rule_based.bram_best_rule_based_agent import BramsBestRuleBasedAgent
 from agents.spg_dec.spg_dec_agent import SPG_Dec_Agent
 from agents.vpg_dec.vpg_dec_agent import VPG_Dec_Agent
 from agents.ppo_dec.ppo_dec_agent import PPO_Dec_Agent
+from agents.population_dec.population_dec_agent import Population_Dec_Agent
 
 # --- Optional: Rainbow DQN, wrapped to speak the same act() interface -------
 # Rainbow lives in hanabi_learning_environment/agents/rainbow and normally
@@ -73,6 +80,14 @@ CONFIG_RAINBOW = {
     "gin_config": None,   # path to a .gin file, e.g. configs/hanabi_rainbow.gin
 }
 
+CONFIG_POPULATION = {
+    'hidden_layers_pi': [128, 128, 64],
+    'hidden_layers_vf': [128, 64, 32],
+    'obs_vec_type': 136,
+    'num_actions': 11,
+    "checkpoint_path": "/home/percy/hanabi/drl_for_hanabi/experiments/policy_params/population/policy_final.pth",
+}
+
 
 def _build_random(config):
   return RandomAgent(config=config or {})
@@ -85,6 +100,8 @@ def _build_simple(config):
 def _build_human(config):
   return HumanPlayer()
 
+def _build_hoad_piers(config):
+    return HOADImitatorAgent(config=config or {})
 
 def _build_bram_simple(config):
   return BramSimpleAgent(config=config or {})
@@ -118,6 +135,35 @@ def _build_rainbow(config):
   return RainbowActAgent(config=config or CONFIG_RAINBOW)
 
 
+def _build_population(config):
+  return Population_Dec_Agent(config=config or CONFIG_POPULATION)
+
+CONFIG_OBL = {
+    "weight_file": "/home/percy/off-belief-learning/models/icml_OBL5/"
+                   "OFF_BELIEF1_SHUFFLE_COLOR0_LOAD1_BZA0_BELIEF_a/model0.pthw",
+    "player_idx": 0,
+    "num_players": 2,
+}
+
+def _build_obl(config):
+  return OBLAgent(config=config or CONFIG_OBL)
+
+
+try:
+  from sad_agent_proxy import SADAgentProxy as SADAgent
+except ImportError:
+  SADAgent = None
+
+CONFIG_SAD = {
+    "weight_file": "/home/percy/hanabi_SAD/models/op/sad-aux-op/M0.pthw",
+    "player_idx": 0,
+    "num_players": 2,
+}
+
+def _build_sad(config):
+  return SADAgent(config=config or CONFIG_SAD)
+
+
 # name -> (builder function, default config)
 AGENT_REGISTRY = {
     "random": (_build_random, {}),
@@ -130,6 +176,10 @@ AGENT_REGISTRY = {
     "vpg": (_build_vpg, CONFIG_VPG),
     "ppo": (_build_ppo, CONFIG_PPO),
     "rainbow": (_build_rainbow, CONFIG_RAINBOW),
+    "population": (_build_population, CONFIG_POPULATION),
+    "hoad_piers": (_build_hoad_piers, {}),
+    "obl": (_build_obl, CONFIG_OBL),
+    "sad": (_build_sad, CONFIG_SAD)
 }
 
 

@@ -19,7 +19,9 @@ different partners instead of overfitting to itself. This is the standard
 Algorithm: vanilla policy gradient (REINFORCE) with a learned value baseline,
 using reward-to-go computed over the WHOLE episode (both seats' rewards,
 since Hanabi's score is a shared team reward) but only applied to gradient
-updates at the learner's OWN decision points.
+updates at the learner's OWN decision points. An entropy bonus is added to
+the policy loss to discourage the policy from collapsing onto a narrow set
+of partner-specific conventions too early (see ENTROPY_COEF below).
 
 Usage:
     cd drl_for_hanabi/algorithms
@@ -61,7 +63,8 @@ from agent_registry import build_agent  # noqa: E402  (lives in extra/decentrali
 # Config -- tune these. Values below are a reasonable starting point, not a
 # tuned final config; watch the printed score and adjust as needed.
 # ----------------------------------------------------------------------------
-EPOCHS = 500                 # number of training epochs; bump way up for a real run
+EPOCHS = 250000               # extended again from 200000 -- pool diversity + entropy
+                               # bonus added below; continuing to test their effect
 BATCH_SIZE = 1000            # minimum number of environment steps per epoch
 OBS_VEC_TYPE = 136           # matches VPG's encoding: fireworks, own hint-knowledge, discards
 NUM_ACTIONS = 11             # 0-4 discard, 5-9 play, 10 hint (same scheme as existing agents)
@@ -70,6 +73,10 @@ HIDDEN_LAYERS_VF = [128, 64, 32]
 LR_PI = 1e-3
 LR_VF = 1e-3
 GAMMA = 0.99
+ENTROPY_COEF = 0.01           # weight on the entropy bonus in the policy loss; higher
+                               # values push the policy to stay more stochastic for
+                               # longer, discouraging premature convention lock-in to
+                               # whichever partners it happens to see most
 ILLEGAL_MOVE_PENALTY = -1.0
 ILLEGAL_MOVE_MAX = 50        # safety cap: abandon episode if this many illegal picks happen
 SAVE_PARAMS_EVERY = 50       # epochs between checkpoint saves (0 = only save at the very end)
@@ -78,10 +85,14 @@ SHOW_EPOCH_EVERY = 5
 # Partners to sample from each episode. Keep this pool restricted to agents
 # that are actually reasonable teammates -- 'random' and 'bram_bias' are
 # deliberately bad/chaotic and would teach the learner to expect nonsense.
-PARTNER_NAMES = ["simple", "bram_simple", "bram_best", "ppo", "vpg", "spg"]
+# 'hoad_piers' added for extra heterogeneity (imitation-learning-based agent,
+# structurally different from both the rule-based and RL partners already
+# in the pool). If it fails to build (e.g. tensorflow missing in this venv),
+# build_partner_pool() skips it gracefully rather than crashing.
+PARTNER_NAMES = ["simple", "bram_simple", "bram_best", "ppo", "vpg", "spg", "hoad_piers"]
 
-SAVE_DIR = os.path.join(_DRL_DIR, "experiments", "policy_params",
-                         f"population_{datetime.now().strftime('%Y-%m-%d')}")
+SAVE_DIR = os.path.join(_DRL_DIR, "experiments", "policy_params", "population")
+# Fixed folder name (not date-based) so resuming works across multiple days.
 
 
 def build_partner_pool():
@@ -128,8 +139,9 @@ class PopulationAgent:
         This intentionally mirrors choose_action_11position's contract, but
         is written out directly here (rather than calling that function)
         because that function returns an HLE action dict, and we also need
-        the raw log-prob for the policy-gradient update -- easier to keep
-        both concerns in one place for a from-scratch training script.
+        the raw log-prob (and distribution entropy, for the entropy bonus)
+        for the policy-gradient update -- easier to keep both concerns in
+        one place for a from-scratch training script.
         """
         obs_vec = self.observation_to_vector(obs)
         obs_vec_t = torch.as_tensor(obs_vec, dtype=torch.float32).to(self.device)
@@ -148,7 +160,9 @@ class PopulationAgent:
         elif act_int in legals_int:
             action = act_int
             legal = True
-        return obs_vec, act_int, action, legal, dist.log_prob(torch.as_tensor(act_int).to(self.device))
+        return (obs_vec, act_int, action, legal,
+                dist.log_prob(torch.as_tensor(act_int).to(self.device)),
+                dist.entropy())
 
     def value_estimate(self, obs_vec):
         obs_vec_t = torch.as_tensor(obs_vec, dtype=torch.float32).to(self.device)
@@ -164,6 +178,33 @@ class PopulationAgent:
         }, save_path)
         print(f"Saved checkpoint to {save_path}")
 
+    def load_policy(self, load_path):
+        checkpoint = torch.load(load_path, map_location=self.device)
+        self.policy_network.load_state_dict(checkpoint["policy_network"])
+        self.optimizer_pi.load_state_dict(checkpoint["optimizer_pi"])
+        self.value_network.load_state_dict(checkpoint["value_network"])
+        self.optimizer_vf.load_state_dict(checkpoint["optimizer_vf"])
+        print(f"Resumed from checkpoint: {load_path}")
+
+
+def find_latest_checkpoint():
+    """Looks in SAVE_DIR for the highest-numbered policy_epochN.pth saved so
+    far, so a crashed run can pick back up instead of starting from scratch.
+    Returns (path, epoch_number) or (None, 0) if nothing to resume from.
+    """
+    if not os.path.isdir(SAVE_DIR):
+        return None, 0
+    best_epoch, best_path = 0, None
+    for fname in os.listdir(SAVE_DIR):
+        if fname.startswith("policy_epoch") and fname.endswith(".pth"):
+            try:
+                epoch_num = int(fname[len("policy_epoch"):-len(".pth")])
+            except ValueError:
+                continue
+            if epoch_num > best_epoch:
+                best_epoch, best_path = epoch_num, os.path.join(SAVE_DIR, fname)
+    return best_path, best_epoch
+
 
 def run_one_episode(learner, partner_pool, illegal_move_penalty=ILLEGAL_MOVE_PENALTY):
     """Plays one 2-player game: learner at seat 0, a randomly sampled
@@ -172,19 +213,19 @@ def run_one_episode(learner, partner_pool, illegal_move_penalty=ILLEGAL_MOVE_PEN
     """
     partner_name = random.choice(list(partner_pool.keys()))
     partner = partner_pool[partner_name]
-    if hasattr(partner, "reset"):
-        try:
-            partner.reset({})
-        except TypeError:
-            partner.reset()
+    # Note: no partner.reset() call here. The base Agent.reset() method is
+    # abstract and raises NotImplementedError unless an agent overrides it,
+    # and none of the partner agents in this pool need per-episode reset --
+    # calling it crashes the whole training loop (same bug we hit earlier
+    # in play_together.py).
 
     game_config = {"colors": 5, "ranks": 5, "players": 2,
                     "max_information_tokens": 8, "max_life_tokens": 3}
-    env = rl_env_adjusted.make(obs_type="CHEAT", config=game_config)
+    env = rl_env_adjusted.make(obs_type="CARD_KNOWLEDGE", config=game_config)
     observations = env.reset()
     done = False
 
-    learner_obs_vecs, learner_act_ints, learner_log_probs = [], [], []
+    learner_obs_vecs, learner_act_ints, learner_log_probs, learner_entropies = [], [], [], []
     all_rewards = []  # every step's reward, both seats, for team reward-to-go
     learner_step_positions = []  # index into all_rewards where a learner action was taken
     illegal_count = 0
@@ -195,7 +236,7 @@ def run_one_episode(learner, partner_pool, illegal_move_penalty=ILLEGAL_MOVE_PEN
         current_player = obs0["current_player"]
 
         if current_player == 0:
-            obs_vec, act_int, action, legal, log_prob = learner.act_int_and_legal(obs0)
+            obs_vec, act_int, action, legal, log_prob, entropy = learner.act_int_and_legal(obs0)
             if legal:
                 observations, rew, done, _ = env.step(action)
             else:
@@ -206,6 +247,7 @@ def run_one_episode(learner, partner_pool, illegal_move_penalty=ILLEGAL_MOVE_PEN
             learner_obs_vecs.append(obs_vec)
             learner_act_ints.append(act_int)
             learner_log_probs.append(log_prob)
+            learner_entropies.append(entropy)
             all_rewards.append(rew)
             learner_step_positions.append(len(all_rewards) - 1)
             if illegal_count > ILLEGAL_MOVE_MAX:
@@ -226,20 +268,21 @@ def run_one_episode(learner, partner_pool, illegal_move_penalty=ILLEGAL_MOVE_PEN
     rtg_full = basics.reward_to_go(all_rewards, gamma=GAMMA)
     learner_rtg = [rtg_full[i] for i in learner_step_positions]
 
-    return (learner_obs_vecs, learner_act_ints, learner_log_probs, learner_rtg,
-            ep_score, illegal_count, partner_name)
+    return (learner_obs_vecs, learner_act_ints, learner_log_probs, learner_entropies,
+            learner_rtg, ep_score, illegal_count, partner_name)
 
 
 def train_one_epoch(learner, partner_pool, epoch_num):
-    batch_obs, batch_log_probs, batch_rtg = [], [], []
+    batch_obs, batch_log_probs, batch_entropies, batch_rtg = [], [], [], []
     scores, illegal_counts = [], []
     steps_this_epoch = 0
 
     while steps_this_epoch < BATCH_SIZE:
-        obs_vecs, act_ints, log_probs, rtg, score, illegal_count, partner_name = \
+        obs_vecs, act_ints, log_probs, entropies, rtg, score, illegal_count, partner_name = \
             run_one_episode(learner, partner_pool)
         batch_obs.extend(obs_vecs)
         batch_log_probs.extend(log_probs)
+        batch_entropies.extend(entropies)
         batch_rtg.extend(rtg)
         scores.append(score)
         illegal_counts.append(illegal_count)
@@ -257,14 +300,19 @@ def train_one_epoch(learner, partner_pool, epoch_num):
 
     # Policy network: REINFORCE with the value network as a baseline
     # (advantage = reward-to-go - value estimate), detached so the policy
-    # loss doesn't backprop into the value network.
+    # loss doesn't backprop into the value network. An entropy bonus is
+    # subtracted from the loss (i.e. added to what we maximize) to keep
+    # the policy from collapsing onto a narrow set of partner-specific
+    # conventions before it's seen enough of the (now more diverse) pool.
     with torch.no_grad():
         baseline = learner.value_network(obs_t).squeeze(-1)
     advantage = rtg_t - baseline
     if advantage.std() > 1e-6:
         advantage = (advantage - advantage.mean()) / (advantage.std() + 1e-8)
     log_probs_t = torch.stack(batch_log_probs)
-    loss_pi = -(log_probs_t * advantage).mean()
+    entropy_t = torch.stack(batch_entropies)
+    mean_entropy = entropy_t.mean()
+    loss_pi = -(log_probs_t * advantage).mean() - ENTROPY_COEF * mean_entropy
     learner.optimizer_pi.zero_grad()
     loss_pi.backward()
     learner.optimizer_pi.step()
@@ -274,6 +322,7 @@ def train_one_epoch(learner, partner_pool, epoch_num):
         avg_illegal = sum(illegal_counts) / len(illegal_counts)
         print(f"Epoch {epoch_num:5d} | episodes {len(scores):4d} | "
               f"avg score {avg_score:5.2f} | avg illegal/ep {avg_illegal:4.2f} | "
+              f"entropy {mean_entropy.item():5.3f} | "
               f"loss_pi {loss_pi.item():7.4f} | loss_vf {loss_vf.item():7.4f}")
 
     return sum(scores) / len(scores)
@@ -286,7 +335,14 @@ def main():
 
     learner = PopulationAgent()
 
-    for epoch in range(1, EPOCHS + 1):
+    resume_path, start_epoch = find_latest_checkpoint()
+    if resume_path:
+        learner.load_policy(resume_path)
+        print(f"Resuming from epoch {start_epoch} (out of {EPOCHS} target)")
+    else:
+        print("No existing checkpoint found -- starting fresh")
+
+    for epoch in range(start_epoch + 1, EPOCHS + 1):
         train_one_epoch(learner, partner_pool, epoch)
         if SAVE_PARAMS_EVERY and epoch % SAVE_PARAMS_EVERY == 0:
             learner.save_policy(os.path.join(SAVE_DIR, f"policy_epoch{epoch}.pth"))

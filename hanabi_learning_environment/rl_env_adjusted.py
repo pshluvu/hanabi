@@ -418,6 +418,18 @@ class HanabiEnv(Environment):
         else:
           hint_d["color"] = None
         hint_d["rank"] = hint.rank()
+        # Added: full plausibility info (which colors/ranks are still possible
+        # given all hints received so far, including negative inference from
+        # hints that did NOT apply to this card). Needed for agents to reason
+        # correctly about their own hand under standard CARD_KNOWLEDGE mode,
+        # where color()/rank() alone are None until fully resolved.
+        hint_d["color_plausible"] = {
+            pyhanabi.color_idx_to_char(c): hint.color_plausible(c)
+            for c in range(5)
+        }
+        hint_d["rank_plausible"] = {
+            r: hint.rank_plausible(r) for r in range(5)
+        }
         player_hints_as_dicts.append(hint_d)
       obs_dict["card_knowledge"].append(player_hints_as_dicts)
 

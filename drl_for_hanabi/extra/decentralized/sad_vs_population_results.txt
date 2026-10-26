@@ -1,0 +1,3469 @@
+2026-09-22 21:12:02.087689: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-09-22 21:12:02.139503: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2026-09-22 21:12:02.627402: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2026-09-22 21:12:02.628990: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-09-22 21:12:03.569364: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Population_Dec_Agent loaded policy parameters from: /home/percy/hanabi/drl_for_hanabi/experiments/policy_params/population/policy_final.pth
+
+Agent 0 is SADAgentProxy
+Agent 1 is Population_Dec_Agent
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 34, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 42, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 48, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 58, agent 1, action: 6
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 6
+Turn 61, agent 0, action: {'action_type': 'PLAY', 'card_index': 0}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 66, agent 1, action: 1
+
+Finished episode nr: 0 with reward 16
+Max reward: 16.000
+Average reward: 16.000
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 34, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'PLAY', 'card_index': 0}
+Turn 58, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+
+Finished episode nr: 1 with reward 15
+Max reward: 16.000
+Average reward: 15.500
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 50, agent 1, action: 6
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 2 with reward 13
+Max reward: 16.000
+Average reward: 14.667
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 34, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 42, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 48, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 54, agent 1, action: 6
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+
+Finished episode nr: 3 with reward 14
+Max reward: 16.000
+Average reward: 14.500
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 30, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 31, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 48, agent 1, action: 6
+Turn 49, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 50, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 6
+Turn 57, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 60, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 68, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+
+Finished episode nr: 4 with reward 13
+Max reward: 16.000
+Average reward: 14.200
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 34, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 46, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 47, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 56, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 57, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 60, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 68, agent 1, action: 1
+
+Finished episode nr: 5 with reward 14
+Max reward: 16.000
+Average reward: 14.167
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 27, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 42, agent 1, action: 6
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 6
+Turn 49, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 50, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 54, agent 1, action: 6
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 6
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 70, agent 1, action: 6
+
+Finished episode nr: 6 with reward 15
+Max reward: 16.000
+Average reward: 14.286
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 7 with reward 12
+Max reward: 16.000
+Average reward: 14.000
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 50, agent 1, action: 6
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 8 with reward 13
+Max reward: 16.000
+Average reward: 13.889
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 30, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 32, agent 1, action: 6
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+
+Finished episode nr: 9 with reward 0
+Max reward: 16.000
+Average reward: 12.500
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 10 with reward 12
+Max reward: 16.000
+Average reward: 12.455
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 34, agent 1, action: 6
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+
+Finished episode nr: 11 with reward 0
+Max reward: 16.000
+Average reward: 11.417
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 30, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 32, agent 1, action: 6
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'DISCARD', 'card_index': 2}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'PLAY', 'card_index': 0}
+
+Finished episode nr: 12 with reward 0
+Max reward: 16.000
+Average reward: 10.538
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 13 with reward 12
+Max reward: 16.000
+Average reward: 10.643
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 50, agent 1, action: 6
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 14 with reward 13
+Max reward: 16.000
+Average reward: 10.800
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 15 with reward 12
+Max reward: 16.000
+Average reward: 10.875
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 16 with reward 12
+Max reward: 16.000
+Average reward: 10.941
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 34, agent 1, action: 6
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+
+Finished episode nr: 17 with reward 0
+Max reward: 16.000
+Average reward: 10.333
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 34, agent 1, action: 6
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+
+Finished episode nr: 18 with reward 0
+Max reward: 16.000
+Average reward: 9.789
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 34, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 42, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 48, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 54, agent 1, action: 6
+Turn 55, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 58, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 62, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 66, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+
+Finished episode nr: 19 with reward 15
+Max reward: 16.000
+Average reward: 10.050
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 20 with reward 12
+Max reward: 16.000
+Average reward: 10.143
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 27, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 42, agent 1, action: 6
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 6
+Turn 49, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 50, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 58, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 59, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 68, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+
+Finished episode nr: 21 with reward 14
+Max reward: 16.000
+Average reward: 10.318
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 22 with reward 12
+Max reward: 16.000
+Average reward: 10.391
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 50, agent 1, action: 6
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 23 with reward 13
+Max reward: 16.000
+Average reward: 10.500
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 34, agent 1, action: 6
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+
+Finished episode nr: 24 with reward 0
+Max reward: 16.000
+Average reward: 10.080
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 34, agent 1, action: 6
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+
+Finished episode nr: 25 with reward 0
+Max reward: 16.000
+Average reward: 9.692
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 34, agent 1, action: 6
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+
+Finished episode nr: 26 with reward 0
+Max reward: 16.000
+Average reward: 9.333
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 27 with reward 12
+Max reward: 16.000
+Average reward: 9.429
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 50, agent 1, action: 6
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 28 with reward 13
+Max reward: 16.000
+Average reward: 9.552
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 50, agent 1, action: 6
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 29 with reward 13
+Max reward: 16.000
+Average reward: 9.667
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 30, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 31, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 38, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 48, agent 1, action: 6
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 6
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 56, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 57, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 58, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 59, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 62, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 68, agent 1, action: 1
+
+Finished episode nr: 30 with reward 14
+Max reward: 16.000
+Average reward: 9.806
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 30, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 31, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 36, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 48, agent 1, action: 6
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 56, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 57, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 62, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 63, agent 0, action: {'action_type': 'PLAY', 'card_index': 0}
+
+Finished episode nr: 31 with reward 19
+Max reward: 19.000
+Average reward: 10.094
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 50, agent 1, action: 6
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 32 with reward 13
+Max reward: 19.000
+Average reward: 10.182
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 34, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 6
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 6
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+
+Finished episode nr: 33 with reward 0
+Max reward: 19.000
+Average reward: 9.882
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 34 with reward 12
+Max reward: 19.000
+Average reward: 9.943
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 50, agent 1, action: 6
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 35 with reward 13
+Max reward: 19.000
+Average reward: 10.028
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 30, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 32, agent 1, action: 6
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 36 with reward 10
+Max reward: 19.000
+Average reward: 10.027
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 27, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 42, agent 1, action: 6
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 6
+Turn 49, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 50, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 6
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 37 with reward 12
+Max reward: 19.000
+Average reward: 10.079
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 34, agent 1, action: 6
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+
+Finished episode nr: 38 with reward 0
+Max reward: 19.000
+Average reward: 9.821
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 30, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 32, agent 1, action: 6
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+
+Finished episode nr: 39 with reward 0
+Max reward: 19.000
+Average reward: 9.575
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 34, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'PLAY', 'card_index': 0}
+Turn 58, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+
+Finished episode nr: 40 with reward 15
+Max reward: 19.000
+Average reward: 9.707
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 34, agent 1, action: 6
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+
+Finished episode nr: 41 with reward 0
+Max reward: 19.000
+Average reward: 9.476
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 27, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 42, agent 1, action: 6
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 6
+Turn 49, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 50, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 51, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 54, agent 1, action: 6
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 60, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 64, agent 1, action: 6
+Turn 65, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 66, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+
+Finished episode nr: 42 with reward 15
+Max reward: 19.000
+Average reward: 9.605
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 27, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 42, agent 1, action: 6
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 6
+Turn 49, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 50, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 58, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 59, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 68, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+
+Finished episode nr: 43 with reward 14
+Max reward: 19.000
+Average reward: 9.705
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 34, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+
+Finished episode nr: 44 with reward 12
+Max reward: 19.000
+Average reward: 9.756
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 27, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 38, agent 1, action: 6
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 42, agent 1, action: 6
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 6
+Turn 49, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 50, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 6
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 1
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 45 with reward 12
+Max reward: 19.000
+Average reward: 9.804
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 50, agent 1, action: 6
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 46 with reward 13
+Max reward: 19.000
+Average reward: 9.872
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'DISCARD', 'card_index': 3}
+Turn 30, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 31, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 36, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'B'}
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 50, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 6
+Turn 53, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 64, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+
+Finished episode nr: 47 with reward 17
+Max reward: 19.000
+Average reward: 10.021
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 34, agent 1, action: 1
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 40, agent 1, action: 6
+Turn 41, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 6
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 50, agent 1, action: 6
+Turn 51, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 52, agent 1, action: 1
+Turn 53, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 54, agent 1, action: 1
+Turn 55, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 56, agent 1, action: 1
+Turn 57, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 58, agent 1, action: 1
+Turn 59, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 60, agent 1, action: 1
+Turn 61, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 62, agent 1, action: 1
+Turn 63, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 3}
+Turn 64, agent 1, action: 1
+Turn 65, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 66, agent 1, action: 6
+Turn 67, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'Y'}
+Turn 68, agent 1, action: 1
+Turn 69, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+Turn 70, agent 1, action: 1
+
+Finished episode nr: 48 with reward 13
+Max reward: 19.000
+Average reward: 10.082
+Turn 1, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 2, agent 1, action: 6
+Turn 3, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 4, agent 1, action: 6
+Turn 5, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 6, agent 1, action: 1
+Turn 7, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 8, agent 1, action: 1
+Turn 9, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 10, agent 1, action: 9
+Turn 11, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 12, agent 1, action: 6
+Turn 13, agent 0, action: {'action_type': 'DISCARD', 'card_index': 4}
+Turn 14, agent 1, action: 1
+Turn 15, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 16, agent 1, action: 1
+Turn 17, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 18, agent 1, action: 1
+Turn 19, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 0}
+Turn 20, agent 1, action: 9
+Turn 21, agent 0, action: {'action_type': 'PLAY', 'card_index': 4}
+Turn 22, agent 1, action: 1
+Turn 23, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 24, agent 1, action: 1
+Turn 25, agent 0, action: {'action_type': 'PLAY', 'card_index': 2}
+Turn 26, agent 1, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'R'}
+Turn 27, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 28, agent 1, action: 1
+Turn 29, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 2}
+Turn 30, agent 1, action: 1
+Turn 31, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 32, agent 1, action: 1
+Turn 33, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 34, agent 1, action: 6
+Turn 35, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'G'}
+Turn 36, agent 1, action: 1
+Turn 37, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 38, agent 1, action: 1
+Turn 39, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 4}
+Turn 40, agent 1, action: 1
+Turn 41, agent 0, action: {'action_type': 'PLAY', 'card_index': 1}
+Turn 42, agent 1, action: 1
+Turn 43, agent 0, action: {'action_type': 'REVEAL_RANK', 'target_offset': 1, 'rank': 1}
+Turn 44, agent 1, action: 1
+Turn 45, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 46, agent 1, action: 1
+Turn 47, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 48, agent 1, action: 1
+Turn 49, agent 0, action: {'action_type': 'REVEAL_COLOR', 'target_offset': 1, 'color': 'W'}
+Turn 50, agent 1, action: 1
+Turn 51, agent 0, action: {'action_type': 'PLAY', 'card_index': 3}
+
+Finished episode nr: 49 with reward 0
+Max reward: 19.000
+Average reward: 9.880
